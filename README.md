@@ -1,34 +1,16 @@
 # unitwork
 
-## Project setup
+## 拉取qq音乐歌曲文件
+#### congClass.js 封装了关于拉取qq音乐歌曲文件的公共方法
+- getVKey()
 ```
-npm install
+根据songmid(可单一或多字符串join(",")拼接)获取VKey值
 ```
-
-### Compiles and hot-reloads for development
+- getRandom()
 ```
-npm run serve
+获取随机数 得到的guid字段 必须getVKey接口与音乐文件链接相同
 ```
-
-### Compiles and minifies for production
+- url音乐链接
+ ```
+http://dl.stream.qqmusic.qq.com/C400${musicData.songmid}.m4a?guid=${guid}&vkey=${vkey}&uin=0&fromtag=38
 ```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

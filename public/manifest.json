@@ -1,0 +1,25 @@
+{
+  "short_name": "DDMusic",
+  "name": "DDMusic WebApp",
+  "display": "standalone",
+  "theme_color": "#fbc02d",
+  "background_color": "#fbc02d",
+  "icon": [
+    {
+      "src": "/static/img/apple-touch-icon.jpg",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/static/img/apple-touch-icon.jpg",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/static/img/apple-touch-icon.jpg",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/webApp"
+}

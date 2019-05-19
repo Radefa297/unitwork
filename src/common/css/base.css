@@ -1,0 +1,277 @@
+/*颜色*/
+.yellow.darken-2{
+    -webkit-box-shadow: 0 12px 20px -10px rgba(255,152,0,.28),0 4px 20px 0 rgba(0,0,0,.12),0 7px 8px -5px rgba(255,152,0,.2);
+    box-shadow: 0 12px 20px -10px rgba(255,152,0,.28),0 4px 20px 0 rgba(0,0,0,.12),0 7px 8px -5px rgba(255,152,0,.2);
+}
+.shadow{
+    -webkit-box-shadow: 0 12px 20px -10px rgba(255,152,0,.28),0 4px 20px 0 rgba(0,0,0,.12),0 7px 8px -5px rgba(255,152,0,.2) !important;
+    box-shadow: 0 12px 20px -10px rgba(255,152,0,.28),0 4px 20px 0 rgba(0,0,0,.12),0 7px 8px -5px rgba(255,152,0,.2) !important;
+}
+.yellow-darken-2--text{
+    color: #fbc02d!important
+}
+.error{
+    background: linear-gradient(60deg,#ef5350,#e53935)!important;
+    -webkit-box-shadow: 0 12px 20px -10px rgba(244,67,54,.28),0 4px 20px 0 rgba(0,0,0,.12),0 7px 8px -5px rgba(244,67,54,.2)!important;
+    box-shadow: 0 12px 20px -10px rgba(244,67,54,.28),0 4px 20px 0 rgba(0,0,0,.12),0 7px 8px -5px rgba(244,67,54,.2)!important;
+}
+.success{
+    background: linear-gradient(60deg,#66bb6a,#43a047)!important;
+    -webkit-box-shadow: 0 12px 20px -10px rgba(76,175,80,.28),0 4px 20px 0 rgba(0,0,0,.12),0 7px 8px -5px rgba(76,175,80,.2)!important;
+    box-shadow: 0 12px 20px -10px rgba(76,175,80,.28),0 4px 20px 0 rgba(0,0,0,.12),0 7px 8px -5px rgba(76,175,80,.2)!important;
+}
+.info{
+    background: #607d8b !important; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #98C5D6, #789baa) !important; /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #98c5d6, #789baa) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-box-shadow: 0 12px 20px -10px rgba(168, 218, 220, 0.36),0 4px 20px 0 rgba(0,0,0,.12),0 7px 8px -5px rgba(130, 209, 217, 0.2) !important;
+    box-shadow: 0 12px 20px -10px rgba(152, 197, 214, 0.28),0 4px 20px 0 rgba(0,0,0,.12),0 7px 8px -5px rgba(168, 218, 220, 0.2) !important;
+    border-color: unset !important;
+
+}
+>>>.v-snack__wrapper{
+    background-color: rgba(0, 0, 0, 0.91);
+}
+.blur .v-image__image--preload{
+    filter: blur(30px);
+    -webkit-filter: blur(30px);
+}
+.searchInput.v-text-field>.v-input__control>.v-input__slot{
+    border-radius: 20px !important;
+    min-height: 35px !important;
+    margin-top: 10px;
+}
+
+.snackbar-wrap.v-snack--bottom>.v-snack__wrapper{
+    border-radius: 20px !important;
+}
+.active{
+    color: #fbc02d !important;
+}
+.description {
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    letter-spacing: 1px;
+}
+.height-50{
+    height: 50px;
+}
+.active-key-tab{
+    background: #fbc02d;
+    height: 22px !important;
+    border-radius: 10px;
+    color: #fff !important;
+    padding: 0 10px !important;
+}
+/*scrollTop*/
+.mescroll {
+    position: fixed;
+}
+.mescroll-totop{
+    right: 5% !important;
+    bottom: 15% !important;
+}
+.material-icons{
+    text-shadow: #eed278c4 0.1em 0.1em 0.3em;
+}
+/*文字省略 2hang*/
+.text-overflow{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+/*loading*/
+@keyframes lds-facebook_1 {
+    0% {
+        height: 15px;
+    }
+    50% {
+        height: 50px;
+    }
+    100% {
+        height: 15px;
+    }
+}
+@-webkit-keyframes lds-facebook_1 {
+    0% {
+        height: 15px;
+    }
+    50% {
+        height: 50px;
+    }
+    100% {
+        height: 15px;
+    }
+}
+@keyframes lds-facebook_2 {
+    0% {
+        height: 30px;
+    }
+    50% {
+        height: 10px;
+    }
+    100% {
+        height: 30px;
+    }
+}
+@-webkit-keyframes lds-facebook_2 {
+    0% {
+        height: 30px;
+    }
+    50% {
+        height: 10px;
+    }
+    100% {
+        height: 30px;
+    }
+}
+@keyframes lds-facebook_3 {
+    0% {
+        height: 25px;
+    }
+    50% {
+        height: 30px;
+    }
+    100% {
+        height: 25px;
+    }
+}
+@-webkit-keyframes lds-facebook_3 {
+    0% {
+        height: 40px;
+    }
+    50% {
+        height: 60px;
+    }
+    100% {
+        height: 40px;
+    }
+}
+@keyframes lds-facebook_4 {
+    0% {
+        height: 10px;
+    }
+    50% {
+        height: 30px;
+    }
+    100% {
+        height: 10px;
+    }
+}
+@-webkit-keyframes lds-facebook_4 {
+    0% {
+        height: 10px;
+    }
+    50% {
+        height: 30px;
+    }
+    100% {
+        height: 10px;
+    }
+}
+/*loading*/
+.lds-css.ng-scope {
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+}
+.lds-facebook {
+    position: relative;
+    -webkit-transform: scale(0.5) translate(30px, 80px) rotate(180deg);
+    transform: scale(0.5) translate(30px, 80px) rotate(180deg);
+}
+.lds-facebook div {
+    position: absolute;
+    width: 20px;
+}
+.lds-facebook div:nth-child(1) {
+    left: 0;
+    background: #fff36a;
+    -webkit-animation: lds-facebook_1 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    animation: lds-facebook_1 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    -webkit-animation-delay: -0.2s;
+    animation-delay: -0.2s;
+}
+.lds-facebook div:nth-child(2) {
+    left: 30px;
+    background: #fff36a;
+    -webkit-animation: lds-facebook_2 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    animation: lds-facebook_2 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    -webkit-animation-delay: -0.1s;
+    animation-delay: -0.1s;
+}
+.lds-facebook div:nth-child(3) {
+    left: 60px;
+    background: #fff36a;
+    -webkit-animation: lds-facebook_3 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    animation: lds-facebook_3 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(4) {
+    left: 90px;
+    background: #fff36a;
+    -webkit-animation: lds-facebook_4 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    animation: lds-facebook_3 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+/*音乐播放时*/
+.equalizer-css.ng-scope {
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    width: 30px;
+}
+.equalizer-facebook {
+    position: relative;
+    -webkit-transform: scale(0.5) translate(0px, 50px) rotate(180deg);
+    transform: scale(0.5) translate(0px, 50px) rotate(180deg);
+}
+.equalizer-facebook div {
+    position: absolute;
+    width: 10px;
+}
+.equalizer-facebook div:nth-child(1) {
+    left: 0;
+    background: #ffffff;
+    -webkit-animation: lds-facebook_1 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    animation: lds-facebook_1 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    -webkit-animation-delay: -0.2s;
+    animation-delay: -0.2s;
+}
+.equalizer-facebook div:nth-child(2) {
+    left: 13px;
+    background: #ffffff;
+    -webkit-animation: lds-facebook_2 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    animation: lds-facebook_2 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    -webkit-animation-delay: -0.1s;
+    animation-delay: -0.1s;
+}
+.equalizer-facebook div:nth-child(3) {
+    left: 26px;
+    background: #ffffff;
+    -webkit-animation: lds-facebook_3 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    animation: lds-facebook_3 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+
+/*转圈圈动画*/
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(0) }
+    to { -webkit-transform: rotate(360deg) }
+}
+
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(0) }
+    to { -moz-transform: rotate(360deg) }
+}
